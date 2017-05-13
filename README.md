@@ -5,7 +5,7 @@
 
 # Image Filter
  
-__Update 13-05-2017__:  __It's an image filter writed by myself.__
+__Update 13-05-2017__:   __It's an image filter written by myself.__
 
 ## Introduction
 
