@@ -44,3 +44,45 @@ The filter is consisted of five parts:
    * Python2.7
 
    * Opencv2
+
+## Demo
+
+
+Naive_Image:
+![Naive](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Naive.jpg)
+
+Averaging_Blur:
+![Averaging_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur.jpg)
+
+Averaging_Blur_Enhanced:
+![Averaging_Blur_Enhanced](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur_Enhanced.jpg)
+
+Completed_Blur:
+![Completed_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Completed_Blur.jpg)
+
+Edge_Detection_360_degree:
+![Edge_Detection_360_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_360_degree.jpg)
+
+Edge_Detection_45_degree:
+![Edge_Detection_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_45_degree.jpg)
+
+Embossing:
+![Embossing](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_.jpg)
+
+Embossing_45_degree
+![Embossing_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_45_degree.jpg)
+
+Embossing_Asymmetric
+![Embossing_Asymmetric](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_Asymmetric.jpg)
+
+Gaussian_Blur
+![Gaussian_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Gaussian_Blur.jpg)
+
+Motion_Blur:
+![Motion_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Motion_Blur.jpg)
+
+Sharpness_Center:
+![Sharpness_Center](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Sharpness_Center.jpg)
+
+Sharpness_Edge
+![Sharpness_Edge](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Sharpness_Edge.jpg)
