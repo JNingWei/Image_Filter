@@ -84,12 +84,6 @@ Edge_Detection_45_degree:
 
 ---
 
-Embossing:
-
-![Embossing](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_.jpg)
-
----
-
 Embossing_45_degree:
 
 ![Embossing_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_45_degree.jpg)
