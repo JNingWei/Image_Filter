@@ -113,3 +113,6 @@ Sharpness_Edge:
 
 ![Sharpness_Edge](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Sharpness_Edge.jpg)
 
+## License
+
+[MIT](https://github.com/JNingWei/Image-Filter/blob/master/LICENSE.md)
