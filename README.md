@@ -1,4 +1,4 @@
-# Image Filter　![Travis](https://img.shields.io/travis/rust-lang/rust.svg) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Language](https://img.shields.io/badge/东半球最好的-图像滤波器-pink.svg) [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg)](https://github.com/JNingWei/Image-Filter) ![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork) 
+# Image Filter　![Travis](https://img.shields.io/travis/rust-lang/rust.svg) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![Language](https://img.shields.io/badge/东半球最好的-图像滤波器-pink.svg) [![Github Releases](https://img.shields.io/github/downloads/JNingWei/Image-Filter/latest/total.svg)]() ![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork) 
  
 __Update 13-05-2017__:   __It's an image filter written by myself.__
 
