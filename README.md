@@ -2,6 +2,8 @@
  
 __Update 13-05-2017__:   __It's an image filter written by myself.__
 
+MIT license. Contributions welcome.
+
 ## Introduction
 
 
