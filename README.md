@@ -47,8 +47,8 @@ Choose the one you need, and the filterred image will generated at folder *Image
 
 ## Usage 
 
-* run "cd src/" to find code files 
-* run "run.sh" to generated the image you need
+1. Use ```cd src/``` to find code files 
+2. Run ```run.sh``` to generated the image you need
 
 ## Requirements
 
@@ -63,67 +63,67 @@ Naive_Image:
 
 ![Naive](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Naive.jpg)
 
----
+<br>
 
 Averaging_Blur:
 
 ![Averaging_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur.jpg)
 
----
+<br>
 
 Averaging_Blur_Enhanced:
 
 ![Averaging_Blur_Enhanced](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur_Enhanced.jpg)
 
----
+<br>
 
 Completed_Blur:
 
 ![Completed_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Completed_Blur.jpg)
 
----
+<br>
 
 Edge_Detection_360_degree:
 
 ![Edge_Detection_360_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_360_degree.jpg)
 
----
+<br>
 
 Edge_Detection_45_degree:
 
 ![Edge_Detection_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_45_degree.jpg)
 
----
+<br>
 
 Embossing_45_degree:
 
 ![Embossing_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_45_degree.jpg)
 
----
+<br>
 
 Embossing_Asymmetric:
 
 ![Embossing_Asymmetric](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_Asymmetric.jpg)
 
----
+<br>
 
 Gaussian_Blur:
 
 ![Gaussian_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Gaussian_Blur.jpg)
 
----
+<br>
 
 Motion_Blur:
 
 ![Motion_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Motion_Blur.jpg)
 
----
+<br>
 
 Sharpness_Center:
 
 ![Sharpness_Center](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Sharpness_Center.jpg)
 
----
+<br>
 
 Sharpness_Edge:
 
