@@ -24,12 +24,26 @@ There are 11 filters to choose:
 Choose the one you need, and the filterred image will generated at folder **Image_Generated**
 
 
-The filter is consisted of five parts:
-* src: folder for the code files that implement the function
-* Image_Origin: folder for pictures which be chosen to filtering
-* Image_Generated: folder for pictures which be generated after filtering
-* README.md: introduce of this program
-* requirements.txt: environment required for this program
+	Labeling_Tool        root directory
+	     |
+	     |
+	     +-- src              the code files that implement the function
+	     |
+	     |
+	     +-- Image_Origin     images which be chosen to filtering
+	     |
+	     |
+	     +-- Image_Generated  images which be generated after filtering
+	     |
+	     |
+	     +-- README.md        introduce of program
+	     |
+	     |
+	     +-- README.md        license of program
+	     |
+	     |
+	     +-- requirements.txt   environment required for this program
+      
 
 ## Usage 
 
