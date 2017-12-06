@@ -52,9 +52,9 @@ Choose the one you need, and the filterred image will generated at folder *Image
 
 ## Requirements
 
-   * Python2.7
+   * Python2
 
-   * Opencv2
+   * OpenCV
 
 ## Demo
 
