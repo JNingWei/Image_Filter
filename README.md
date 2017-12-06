@@ -8,15 +8,15 @@ MIT license. Contributions welcome.
 
 	Image-Filter        root directory
 	     |
-	     +-- src              the code files that implement the function
+	     +-- src                code files that implement the function
 	     |
-	     +-- Image_Origin     images which be chosen to filtering
+	     +-- Image_Origin       images which be chosen to filtering
 	     |
-	     +-- Image_Generated  images which be generated after filtering
+	     +-- Image_Generated    images which be generated after filtering
 	     |
-	     +-- README.md        introduce of program
+	     +-- README.md          manual of project
 	     |
-	     +-- README.md        license of program
+	     +-- LICENSE.md         license of project
 	     |
 	     +-- requirements.txt   environment required for this program
 
