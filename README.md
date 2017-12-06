@@ -6,7 +6,7 @@ MIT license. Contributions welcome.
 
 ## Introduction
 
-	Labeling_Tool        root directory
+	Image-Filter        root directory
 	     |
 	     |
 	     +-- src              the code files that implement the function
