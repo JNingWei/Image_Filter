@@ -7,7 +7,7 @@ MIT license. Contributions welcome.
 ## Introduction
 
 
-There are 11 filters to choose:
+There are 11 filters can choose:
 
 - [x] 1. Naive_Filter
 - [x] 2. Sharpness_Center_Filter
@@ -47,8 +47,8 @@ Choose the one you need, and the filterred image will generated at folder *Image
 
 ## Usage 
 
-1. Use ```cd src/``` to find code files 
-2. Run ```run.sh``` to generated the image you need
+1. Use ```cd src/``` to find code files.
+2. Run ```run.sh``` to generated the image you need.
 
 ## Requirements
 
