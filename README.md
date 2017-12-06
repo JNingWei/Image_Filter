@@ -21,11 +21,11 @@ There are 11 filters to choose:
 - [x] 10. Motion_Blur_Filter
 - [x] 11. Gaussian_Blur_Filter
 
-Choose the one you need, and the filterred image will generated at folder **Image_Generated**
+Choose the one you need, and the filterred image will generated at folder *Image_Generated*.
 
 
 	Labeling_Tool        root directory
-	     |
+	     |
 	     |
 	     +-- src              the code files that implement the function
 	     |
