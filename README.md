@@ -43,7 +43,7 @@ Choose the one you need, and the filtered image will generated at folder ```Imag
 
 <br>
 
-1. 运行```python src / main.py```生成你需要的图像，卷积结果需要耐心等待一会儿。
+1. 运行 ```python src / main.py``` 来生成你需要的图像，卷积结果需要耐心等待一会儿。
 2. 在 ```src/main.py``` 中, 自己还可以设计一个滤波器来做实验以加深对滤波器的了解。
 
 ## Requirements
