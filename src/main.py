@@ -1,11 +1,16 @@
-# -*- coding: utf-8 -*-
+# coding=utf-8
+
+"""
+Image-Filter
+Main program.
+__author__ = 'JNingWei'
+"""
 
 import os
 import cv2
 import numpy as np
 import filter
 import convolution
-
 
 def main():
 
