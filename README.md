@@ -22,7 +22,7 @@ MIT license. Contributions welcome.
 
 There are 11 filters can choose:
 
-- [x] 1. Naive Filter  原图滤波（相当于无变化）
+- [x] 1. Naive Filter       原图滤波（相当于无变化）
 - [x] 2. Sharpness_Center Filter  中心锐化 滤波
 - [x] 3. Sharpness_Edge Filter  边缘锐化 滤波
 - [x] 4. Edge_Detection_360° Filter  360°边缘检测 滤波
