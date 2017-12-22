@@ -1,7 +1,12 @@
-# -*- coding: utf-8 -*-
+# coding=utf-8
+
+"""
+Image-Filter
+Provide optional filter.
+__author__ = 'JNingWei'
+"""
 
 import numpy as np
-
 
 def Naive_Filter():
     # 原图　Naive Filter
