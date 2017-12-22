@@ -108,9 +108,11 @@ Choose the one you need, and the filterred image will generated at folder *Image
 <br>
 
 10. Motion_Blur Filter  运动模糊 滤波
+
 ![Motion_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Motion_Blur.jpg)
 
 11. Gaussian_Blur Filter  高斯模糊 滤波
+
 ![Gaussian_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Gaussian_Blur.jpg)
 
 ## License
