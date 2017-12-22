@@ -43,7 +43,7 @@ Choose the one you need, and the filterred image will generated at folder *Image
 
 ## Requirements
 
-   * Python2
+   * Python
 
    * OpenCV
 
