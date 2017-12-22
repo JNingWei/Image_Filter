@@ -122,4 +122,4 @@ Sharpness_Edge:
 
 ## License
 
-[MIT](https://github.com/JNingWei/Image-Filter/blob/master/LICENSE.md)
+[< MIT >](https://github.com/parnec/Image_Algorithm_Toolbox/blob/master/LICENSE.md)
