@@ -22,17 +22,17 @@ MIT license. Contributions welcome.
 
 There are 11 filters can choose:
 
-- [x] 1. Naive_Filter
-- [x] 2. Sharpness_Center_Filter
-- [x] 3. Sharpness_Edge_Filter
-- [x] 4. Edge_Detection_360_degree_Filter
-- [x] 5. Edge_Detection_45_degree_Filter
-- [x] 6. Embossing_45_degree_Filter
-- [x] 7. Embossing_Asymmetric_Filter
-- [x] 8. Averaging_Blur_Filter
-- [x] 9. Completed_Blur_Filter
-- [x] 10. Motion_Blur_Filter
-- [x] 11. Gaussian_Blur_Filter
+- [x] 1. Naive Filter  原图滤波（相当于无变化）
+- [x] 2. Sharpness_Center Filter  中心锐化 滤波
+- [x] 3. Sharpness_Edge Filter  边缘锐化 滤波
+- [x] 4. Edge_Detection_360° Filter  360°边缘检测 滤波
+- [x] 5. Edge_Detection_45° Filter  45°边缘检测 滤波
+- [x] 6. Embossing_45° Filter  45°浮雕 滤波
+- [x] 7. Embossing_Asymmetric Filter  非对称浮雕 滤波
+- [x] 8. Averaging_Blur Filter  均值模糊 滤波
+- [x] 9. Completed_Blur Filter  完全模糊 滤波
+- [x] 10. Motion_Blur Filter  运动模糊 滤波
+- [x] 11. Gaussian_Blur Filter  高斯模糊 滤波
 
 Choose the one you need, and the filterred image will generated at folder *Image_Generated*.
 
@@ -50,75 +50,75 @@ Choose the one you need, and the filterred image will generated at folder *Image
 ## Demo
 
 
-Naive_Image:
+
+1. Naive Filter  原图滤波（相当于无变化）
 
 ![Naive](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Naive.jpg)
 
 <br>
 
-Averaging_Blur:
-
-![Averaging_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur.jpg)
-
-<br>
-
-Averaging_Blur_Enhanced:
-
-![Averaging_Blur_Enhanced](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur_Enhanced.jpg)
-
-<br>
-
-Completed_Blur:
-
-![Completed_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Completed_Blur.jpg)
-
-<br>
-
-Edge_Detection_360_degree:
-
-![Edge_Detection_360_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_360_degree.jpg)
-
-<br>
-
-Edge_Detection_45_degree:
-
-![Edge_Detection_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_45_degree.jpg)
-
-<br>
-
-Embossing_45_degree:
-
-![Embossing_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_45_degree.jpg)
-
-<br>
-
-Embossing_Asymmetric:
-
-![Embossing_Asymmetric](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_Asymmetric.jpg)
-
-<br>
-
-Gaussian_Blur:
-
-![Gaussian_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Gaussian_Blur.jpg)
-
-<br>
-
-Motion_Blur:
-
-![Motion_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Motion_Blur.jpg)
-
-<br>
-
-Sharpness_Center:
+2. Sharpness_Center Filter  中心锐化 滤波
 
 ![Sharpness_Center](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Sharpness_Center.jpg)
 
 <br>
 
-Sharpness_Edge:
+3. Sharpness_Edge Filter  边缘锐化 滤波
 
 ![Sharpness_Edge](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Sharpness_Edge.jpg)
+
+<br>
+
+4. Edge_Detection_360° Filter  360°边缘检测 滤波
+
+![Edge_Detection_360_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_360_degree.jpg)
+
+
+<br>
+
+5. Edge_Detection_45° Filter  45°边缘检测 滤波
+
+![Edge_Detection_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Edge_Detection_45_degree.jpg)
+
+<br>
+
+6. Embossing_45° Filter  45°浮雕 滤波
+
+![Embossing_45_degree](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_45_degree.jpg)
+
+<br>
+
+7. Embossing_Asymmetric Filter  非对称浮雕 滤波
+
+![Embossing_Asymmetric](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Embossing_Asymmetric.jpg)
+
+<br>
+
+8. Averaging_Blur Filter  均值模糊 滤波
+![Averaging_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur.jpg)
+
+![Averaging_Blur_Enhanced](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur_Enhanced.jpg)
+
+<br>
+
+9. Completed_Blur Filter  完全模糊 滤波
+
+![Completed_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Completed_Blur.jpg)
+
+<br>
+
+10. Motion_Blur Filter  运动模糊 滤波
+
+![Motion_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Motion_Blur.jpg)
+
+<br>
+
+11. Gaussian_Blur Filter  高斯模糊 滤波
+
+![Gaussian_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Gaussian_Blur.jpg)
+
+<br>
+
 
 ## License
 
