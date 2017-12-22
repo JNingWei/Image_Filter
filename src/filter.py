@@ -3,6 +3,7 @@
 """
 Image-Filter
 Provide optional filter.
+
 __author__ = 'JNingWei'
 """
 
@@ -255,7 +256,7 @@ def Filter(filter_name):
         filter_0, filter_1, filter_2 = Gaussian_Blur_Filter()
     else:
         filter_0, filter_1, filter_2 = None_Exist_Filter()
-        print '\nNo such Filter !\n'
+        print("\nNo such Filter !")
 
     return filter_0, filter_1, filter_2
 
