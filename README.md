@@ -34,16 +34,14 @@ There are 11 filters can choose:
 - [x] 10. Motion_Blur Filter  &emsp;&emsp; 运动模糊 滤波
 - [x] 11. Gaussian_Blur Filter  &emsp;&emsp; 高斯模糊 滤波
 
-Choose the filter you need, and the filtered image will generated at folder ```Image_Generated/```.
+Choose the filter you need, and the filtered image will generated at folder ```Image_Generated/```.<br>
 选择你需要的滤波器，卷积结果会自动保存在 ```Image_Generated/``` 文件夹.
 
 ## Usage 
 
 1. Run ```python src/main.py``` to generated the image you need. Need to wait patiently for a while to get results.
 2. In ```src/main.py```, you can also design a filter yourself to experiment.
-
 <br>
-
 1. 运行 ```python src / main.py``` 来生成你需要的图像，卷积结果需要耐心等待一会儿。
 2. 在 ```src/main.py``` 中，自己还可以设计一个滤波器来做实验以加深对滤波器的了解。
 
