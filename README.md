@@ -34,7 +34,8 @@ There are 11 filters can choose:
 - [x] 10. Motion_Blur Filter  &emsp;&emsp; 运动模糊 滤波
 - [x] 11. Gaussian_Blur Filter  &emsp;&emsp; 高斯模糊 滤波
 
-Choose the one you need, and the filtered image will generated at folder ```Image_Generated/```.
+Choose the filter you need, and the filtered image will generated at folder ```Image_Generated/```.
+选择你需要的滤波器, 卷积结果会自动保存在 ```Image_Generated/``` 文件夹.
 
 ## Usage 
 
