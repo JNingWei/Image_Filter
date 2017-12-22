@@ -88,20 +88,17 @@ Choose the one you need, and the filterred image will generated at folder *Image
 <br>
 
 8. Averaging_Blur Filter  均值模糊 滤波<br>
-![Averaging_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur.jpg)<br>
-![Averaging_Blur_Enhanced](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur_Enhanced.jpg)
+![Averaging_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Averaging_Blur.jpg)
 
 <br>
 
 9. Completed_Blur Filter  完全模糊 滤波<br>
 ![Completed_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Completed_Blur.jpg)
 
-<br>
 
 10. Motion_Blur Filter  运动模糊 滤波<br>
 ![Motion_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Motion_Blur.jpg)
 
-<br>
 
 11. Gaussian_Blur Filter  高斯模糊 滤波<br>
 ![Gaussian_Blur](https://github.com/JNingWei/Image-Filter/blob/master/Image_Generated/Gaussian_Blur.jpg)
