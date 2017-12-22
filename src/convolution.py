@@ -1,7 +1,12 @@
-# -*- coding: utf-8 -*-
+# coding=utf-8
+
+"""
+Image-Filter
+Convolution module.
+__author__ = 'JNingWei'
+"""
 
 import numpy as np
-
 
 def conv(image, filter, image_center_x, image_center_y):
 
