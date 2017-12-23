@@ -16,7 +16,8 @@ import convolution
 
 def main(src, dst):
 
-    src_pic_paths = [os.path.join(src, name) for name in os.listdir(src) if os.path.splitext(name)[-1] in [".jpg", ".JPG", ".png", ".PNG"]]
+    src_pic_paths = [os.path.join(src, name) for name in os.listdir(src)
+                     if os.path.splitext(name)[-1] in [".jpg", ".JPG", ".png", ".PNG"]]
     filters = [
         'Naive',                     # Naive Filter  原图滤波（相当于无变化）
         'Sharpness_Center',          # Sharpness_Center Filter  中心锐化 滤波
@@ -29,10 +30,16 @@ def main(src, dst):
         'Completed_Blur',            # Completed_Blur Filter  完全模糊 滤波
         'Motion_Blur',               # Motion_Blur Filter  运动模糊 滤波
         'Gaussian_Blur'              # Gaussian_Blur Filter  高斯模糊 滤波
+        
+        'DIY'                        # DIY Filter  自定义 滤波
     ]
 
-    # Choose the filter from list: "filter_names"  选择你需要的滤波器
+    # ===================================================================
+    ## Choose the filter from list: "filter_names"  选择你需要的滤波器
+
     filter_name = 'Sharpness_Center'
+    # filter_name = 'DIY'
+    # ===================================================================
 
     for src_pic_path in src_pic_paths:
         img =cv2.imread(src_pic_path)

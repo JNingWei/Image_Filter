@@ -11,17 +11,14 @@ import numpy as np
 
 def Naive_Filter():
     # Naive Filter  原图 滤波
-
     filter_0 = np.array([[[0,0,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[1,0,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,0,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,1,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,0,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,0,1],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,0,0]]],
@@ -30,17 +27,14 @@ def Naive_Filter():
 
 def Sharpness_Center_Filter():
     # Sharpness_Center Filter  中心锐化 滤波
-
     filter_0 = np.array([[[-1,0,0],[-1,0,0],[-1,0,0]],
                          [[-1,0,0],[9,0,0],[-1,0,0]],
                          [[-1,0,0],[-1,0,0],[-1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,-1,0],[0,-1,0],[0,-1,0]],
                          [[0,-1,0],[0,9,0],[0,-1,0]],
                          [[0,-1,0],[0,-1,0],[0,-1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,-1],[0,0,-1],[0,0,-1]],
                          [[0,0,-1],[0,0,9],[0,0,-1]],
                          [[0,0,-1],[0,0,-1],[0,0,-1]]],
@@ -49,17 +43,14 @@ def Sharpness_Center_Filter():
 
 def Sharpness_Edge_Filter():
     # Sharpness_Edge Filter  边缘锐化 滤波
-
     filter_0 = np.array([[[1,0,0],[1,0,0],[1,0,0]],
                          [[1,0,0],[-7,0,0],[1,0,0]],
                          [[1,0,0],[1,0,0],[1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,1,0],[0,1,0],[0,1,0]],
                          [[0,1,0],[0,-7,0],[0,1,0]],
                          [[0,1,0],[0,1,0],[0,1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,1],[0,0,1],[0,0,1]],
                          [[0,0,1],[0,0,-7],[0,0,1]],
                          [[0,0,1],[0,0,1],[0,0,1]]],
@@ -68,17 +59,14 @@ def Sharpness_Edge_Filter():
 
 def Edge_Detection_360_degree_Filter():
     # Edge_Detection_360° Filter  360°边缘检测 滤波
-
     filter_0 = np.array([[[-1,0,0],[-1,0,0],[-1,0,0]],
                          [[-1,0,0],[8,0,0],[-1,0,0]],
                          [[-1,0,0],[-1,0,0],[-1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,-1,0],[0,-1,0],[0,-1,0]],
                          [[0,-1,0],[0,8,0],[0,-1,0]],
                          [[0,-1,0],[0,-1,0],[0,-1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,-1],[0,0,-1],[0,0,-1]],
                          [[0,0,-1],[0,0,8],[0,0,-1]],
                          [[0,0,-1],[0,0,-1],[0,0,-1]]],
@@ -87,17 +75,14 @@ def Edge_Detection_360_degree_Filter():
 
 def Edge_Detection_45_degree_Filter():
     # Edge_Detection_45° Filter  45°边缘检测 滤波
-
     filter_0 = np.array([[[-1,0,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[2,0,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[-1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,-1,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,2,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,-1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,-1],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,0,2],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,0,-1]]],
@@ -106,17 +91,14 @@ def Edge_Detection_45_degree_Filter():
 
 def Embossing_45_degree_Filter():
     # Embossing_45° Filter  45°浮雕 滤波
-
     filter_0 = np.array([[[-1,0,0],[-1,0,0],[0,0,0]],
                          [[-1,0,0],[1,0,0],[1,0,0]],
                          [[0,0,0],[1,0,0],[1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,-1,0],[0,-1,0],[0,0,0]],
                          [[0,-1,0],[0,1,0],[0,1,0]],
                          [[0,0,0],[0,1,0],[0,1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,-1],[0,0,-1],[0,0,0]],
                          [[0,0,-1],[0,0,1],[0,0,1]],
                          [[0,0,0],[0,0,1],[0,0,1]]],
@@ -125,17 +107,14 @@ def Embossing_45_degree_Filter():
 
 def Embossing_Asymmetric_Filter():
     # Embossing_Asymmetric Filter  非对称浮雕 滤波
-
     filter_0 = np.array([[[2,0,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[-1,0,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[-1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,2,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,-1,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,-1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,2],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,0,-1],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,0,-1]]],
@@ -144,17 +123,14 @@ def Embossing_Asymmetric_Filter():
 
 def Averaging_Blur_Filter():
     # Averaging_Blur Filter  均值模糊 滤波
-
     filter_0 = np.array([[[0,0,0],[0.25,0,0],[0,0,0]],
                          [[0.25,0,0],[0,0,0],[0.25,0,0]],
                          [[0,0,0],[0.25,0,0],[0,0,0]]],
                         dtype=np.float)
-
     filter_1 = np.array([[[0,0,0],[0,0.25,0],[0,0,0]],
                          [[0,0.25,0],[0,0,0],[0,0.25,0]],
                          [[0,0,0],[0,0.25,0],[0,0,0]]],
                         dtype=np.float)
-
     filter_2 = np.array([[[0,0,0],[0,0,0.25],[0,0,0]],
                          [[0,0,0.25],[0,0,0],[0,0,0.25]],
                          [[0,0,0],[0,0,0.25],[0,0,0]]],
@@ -163,17 +139,14 @@ def Averaging_Blur_Filter():
 
 def Completed_Blur_Filter():
     # Completed_Blur Filter  完全模糊 滤波
-
     filter_0 = np.array([[[1.0/9,0,0],[1.0/9,0,0],[1.0/9,0,0]],
                          [[1.0/9,0,0],[1.0/9,0,0],[1.0/9,0,0]],
                          [[1.0/9,0,0],[1.0/9,0,0],[1.0/9,0,0]]],
                         dtype=np.float)
-
     filter_1 = np.array([[[0,1.0/9,0],[0,1.0/9,0],[0,1.0/9,0]],
                          [[0,1.0/9,0],[0,1.0/9,0],[0,1.0/9,0]],
                          [[0,1.0/9,0],[0,1.0/9,0],[0,1.0/9,0]]],
                         dtype=np.float)
-
     filter_2 = np.array([[[0,0,1.0/9],[0,0,1.0/9],[0,0,1.0/9]],
                          [[0,0,1.0/9],[0,0,1.0/9],[0,0,1.0/9]],
                          [[0,0,1.0/9],[0,0,1.0/9],[0,0,1.0/9]]],
@@ -182,17 +155,14 @@ def Completed_Blur_Filter():
 
 def Motion_Blur_Filter():
     # Motion_Blur Filter  运动模糊 滤波
-
     filter_0 = np.array([[[1,0,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[1,0,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[1,0,0]]],
                         dtype=np.int16)
-
     filter_1 = np.array([[[0,1,0],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,1,0],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,1,0]]],
                         dtype=np.int16)
-
     filter_2 = np.array([[[0,0,1],[0,0,0],[0,0,0]],
                          [[0,0,0],[0,0,1],[0,0,0]],
                          [[0,0,0],[0,0,0],[0,0,1]]],
@@ -201,29 +171,41 @@ def Motion_Blur_Filter():
 
 def Gaussian_Blur_Filter():
     # Gaussian_Blur Filter  高斯模糊 滤波
-
     filter_0 = np.array([[[1.0/36,0,0],[4.0/36,0,0],[1.0/36,0,0]],
                          [[4.0/36,0,0],[16.0/36,0,0],[4.0/36,0,0]],
                          [[1.0/36,0,0],[4.0/36,0,0],[1.0/36,0,0]]],
                         dtype=np.float)
-
     filter_1 = np.array([[[0,1.0/36,0],[0,4.0/36,0],[0,1.0/36,0]],
                          [[0,4.0/36,0],[0,16.0/36,0],[0,4.0/36,0]],
                          [[0,1.0/36,0],[0,4.0/36,0],[0,1.0/36,0]]],
                         dtype=np.float)
-
     filter_2 = np.array([[[0,0,1.0/36],[0,0,4.0/36],[0,0,1.0/36]],
                          [[0,0,4.0/36],[0,0,16.0/36],[0,0,4.0/36]],
                          [[0,0,1.0/36],[0,0,4.0/36],[0,0,1.0/36]]],
                         dtype=np.float)
     return filter_0, filter_1, filter_2
 
-def None_Exist_Filter():
+def DIY_Filter():
     # Design a filter yourself  自己设计一个滤波器
-    filter_0 = np.zeros((3,3,3), dtype=np.float)
-    filter_1 = np.zeros((3,3,3), dtype=np.float)
-    filter_2 = np.zeros((3,3,3), dtype=np.float)
+    filter_0 = np.array([[[0,0,0],[0,0,0],[0,0,0]],
+                         [[0,0,0],[1,0,0],[0,0,0]],
+                         [[0,0,0],[0,0,0],[0,0,0]]],
+                        dtype=np.int16)
+    filter_1 = np.array([[[0,0,0],[0,0,0],[0,0,0]],
+                         [[0,0,0],[0,1,0],[0,0,0]],
+                         [[0,0,0],[0,0,0],[0,0,0]]],
+                        dtype=np.int16)
+    filter_2 = np.array([[[0,0,0],[0,0,0],[0,0,0]],
+                         [[0,0,0],[0,0,1],[0,0,0]],
+                         [[0,0,0],[0,0,0],[0,0,0]]],
+                        dtype=np.int16)
+    return filter_0, filter_1, filter_2
 
+def No_Exist_Filter():
+    # When filter name doesn't exist  当滤波器不存在时
+    filter_0 = np.zeros((3, 3, 3), dtype=np.float)
+    filter_1 = np.zeros((3, 3, 3), dtype=np.float)
+    filter_2 = np.zeros((3, 3, 3), dtype=np.float)
     return filter_0, filter_1, filter_2
 
 def Filter(filter_name):
@@ -250,9 +232,12 @@ def Filter(filter_name):
         filter_0, filter_1, filter_2 = Motion_Blur_Filter()
     elif filter_name == 'Gaussian_Blur':
         filter_0, filter_1, filter_2 = Gaussian_Blur_Filter()
+    elif filter_name == 'DIY':
+        filter_0, filter_1, filter_2 = DIY_Filter()
     else:
-        filter_0, filter_1, filter_2 = None_Exist_Filter()
         print("\n No such Filter !")
+        exit(0)
+        filter_0, filter_1, filter_2 = No_Exist_Filter()
 
     return filter_0, filter_1, filter_2
 
