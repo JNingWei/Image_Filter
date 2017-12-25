@@ -92,4 +92,4 @@ Choose the filter you need, and the filtered image will generated at folder ```I
 
 ## License
 
-[MIT](https://github.com/JNingWei/Image-Filter/blob/master/LICENSE.md)
+[MIT](https://github.com/JNingWei/Image_Filter/blob/master/LICENSE.md)
