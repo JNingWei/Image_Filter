@@ -1,6 +1,6 @@
 # Image Filter　![Travis](https://img.shields.io/travis/rust-lang/rust/master.svg) ![Language](https://img.shields.io/badge/language-Python-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md) ![AD](https://img.shields.io/badge/东半球最好的-图像滤波器-pink.svg)
  
-__Update 13-05-2017__:   __It's an image filter written by myself.__
+__Update 13-05-2017__:   __It's an image filter entirely written by myself.__
 
 MIT license. Contributions welcome.
 
