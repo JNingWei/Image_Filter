@@ -22,17 +22,17 @@ MIT license. Contributions welcome.
 
 There are 11 filters can choose:
 
-- [x] 1. Naive Filter  &emsp;&emsp;            原图滤波（相当于无变化）
-- [x] 2. Sharpness_Center Filter  &emsp;&emsp; 中心锐化 滤波
-- [x] 3. Sharpness_Edge Filter  &emsp;&emsp; 边缘锐化 滤波
-- [x] 4. Edge_Detection_360° Filter  &emsp;&emsp; 360°边缘检测 滤波
-- [x] 5. Edge_Detection_45° Filter  &emsp;&emsp; 45°边缘检测 滤波
-- [x] 6. Embossing_45° Filter  &emsp;&emsp; 45°浮雕 滤波
+- [x] 1. Naive Filter  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;原图滤波（相当于无变化）
+- [x] 2. Sharpness_Center Filter  &emsp;&emsp;&emsp;&emsp; 中心锐化 滤波
+- [x] 3. Sharpness_Edge Filter &emsp;&emsp;&emsp;&emsp;&emsp;边缘锐化 滤波
+- [x] 4. Edge_Detection_360° Filter  &emsp;&emsp;&emsp;360°边缘检测 滤波
+- [x] 5. Edge_Detection_45° Filter  &emsp;&emsp;&emsp;&ensp;45°边缘检测 滤波
+- [x] 6. Embossing_45° Filter  &emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 45°浮雕 滤波
 - [x] 7. Embossing_Asymmetric Filter  &emsp;&emsp; 非对称浮雕 滤波
-- [x] 8. Averaging_Blur Filter  &emsp;&emsp; 均值模糊 滤波
-- [x] 9. Completed_Blur Filter  &emsp;&emsp; 完全模糊 滤波
-- [x] 10. Motion_Blur Filter  &emsp;&emsp; 运动模糊 滤波
-- [x] 11. Gaussian_Blur Filter  &emsp;&emsp; 高斯模糊 滤波
+- [x] 8. Averaging_Blur Filter &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;均值模糊 滤波
+- [x] 9. Completed_Blur Filter  &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;完全模糊 滤波
+- [x] 10. Motion_Blur Filter  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 运动模糊 滤波
+- [x] 11. Gaussian_Blur Filter  &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;高斯模糊 滤波
 
 Choose the filter you need, and the filtered image will generated at folder ```Image_Generated/```.<br>
 选择你需要的滤波器，卷积结果会自动保存在 ```Image_Generated/``` 文件夹。
