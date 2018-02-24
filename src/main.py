@@ -29,7 +29,7 @@ def main(src, dst):
         'Averaging_Blur',            # Averaging_Blur Filter  均值模糊 滤波
         'Completed_Blur',            # Completed_Blur Filter  完全模糊 滤波
         'Motion_Blur',               # Motion_Blur Filter  运动模糊 滤波
-        'Gaussian_Blur'              # Gaussian_Blur Filter  高斯模糊 滤波
+        'Gaussian_Blur',             # Gaussian_Blur Filter  高斯模糊 滤波
         
         'DIY'                        # DIY Filter  自定义 滤波
     ]
@@ -42,11 +42,13 @@ def main(src, dst):
     # ===================================================================
 
     for src_pic_path in src_pic_paths:
-        img =cv2.imread(src_pic_path)
+        img = cv2.imread(src_pic_path)
+        h, w, c = img.shape
+        assert c == 3, "Error! Please use the picture of 3 color channels."
         filter_0, filter_1, filter_2 = filter.Filter(filter_name)
-        img2 = np.zeros((424, 600, 3), dtype=np.float)
-        for i in range(1, 423, 1):
-            for j in range(1, 599, 1):
+        img2 = np.zeros((h, w, c), dtype=np.float)
+        for i in range(1, h-1, 1):
+            for j in range(1, w-1, 1):
                 img2[i][j][0] = convolution.conv(img, filter_0, i, j)
                 img2[i][j][1] = convolution.conv(img, filter_1, i, j)
                 img2[i][j][2] = convolution.conv(img, filter_2, i, j)
